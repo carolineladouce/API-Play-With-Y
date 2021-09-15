@@ -3,18 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C621145C26E84526005305D5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C621145B26E84526005305D5 /* LoadingViewController.swift */; };
 		C6852CA126E6CB7500737A99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6852CA026E6CB7500737A99 /* AppDelegate.swift */; };
-		C6852CA326E6CB7500737A99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6852CA226E6CB7500737A99 /* SceneDelegate.swift */; };
-		C6852CA526E6CB7500737A99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6852CA426E6CB7500737A99 /* ViewController.swift */; };
-		C6852CA826E6CB7500737A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6852CA626E6CB7500737A99 /* Main.storyboard */; };
+		C6852CA526E6CB7500737A99 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6852CA426E6CB7500737A99 /* HomeScreenViewController.swift */; };
 		C6852CAA26E6CB7700737A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6852CA926E6CB7700737A99 /* Assets.xcassets */; };
 		C6852CAD26E6CB7700737A99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6852CAB26E6CB7700737A99 /* LaunchScreen.storyboard */; };
 		C6852CB826E6CB7700737A99 /* Yelp_PlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6852CB726E6CB7700737A99 /* Yelp_PlayTests.swift */; };
 		C6852CC326E6CB7700737A99 /* Yelp_PlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6852CC226E6CB7700737A99 /* Yelp_PlayUITests.swift */; };
+		C6852CD126E6CCCE00737A99 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6852CD026E6CCCE00737A99 /* DetailViewController.swift */; };
+		C6852CD326E6CD2100737A99 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6852CD226E6CD2100737A99 /* TableViewCell.swift */; };
+		C6852CD526E6CD4900737A99 /* YelpAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6852CD426E6CD4900737A99 /* YelpAPIKey.swift */; };
+		C6852CD826E6CE3A00737A99 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C6852CD726E6CE3A00737A99 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C621145B26E84526005305D5 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		C6852C9D26E6CB7500737A99 /* Yelp Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yelp Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6852CA026E6CB7500737A99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6852CA226E6CB7500737A99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6852CA426E6CB7500737A99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C6852CA726E6CB7500737A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6852CA426E6CB7500737A99 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		C6852CA926E6CB7700737A99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6852CAC26E6CB7700737A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6852CAE26E6CB7700737A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,9 @@
 		C6852CBE26E6CB7700737A99 /* Yelp PlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yelp PlayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6852CC226E6CB7700737A99 /* Yelp_PlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yelp_PlayUITests.swift; sourceTree = "<group>"; };
 		C6852CC426E6CB7700737A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6852CD026E6CCCE00737A99 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C6852CD226E6CD2100737A99 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C6852CD426E6CD4900737A99 /* YelpAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6852CD826E6CE3A00737A99 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,9 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				C6852CA026E6CB7500737A99 /* AppDelegate.swift */,
-				C6852CA226E6CB7500737A99 /* SceneDelegate.swift */,
-				C6852CA426E6CB7500737A99 /* ViewController.swift */,
-				C6852CA626E6CB7500737A99 /* Main.storyboard */,
+				C6852CA426E6CB7500737A99 /* HomeScreenViewController.swift */,
+				C621145B26E84526005305D5 /* LoadingViewController.swift */,
+				C6852CD026E6CCCE00737A99 /* DetailViewController.swift */,
+				C6852CD226E6CD2100737A99 /* TableViewCell.swift */,
+				C6852CD426E6CD4900737A99 /* YelpAPIKey.swift */,
 				C6852CA926E6CB7700737A99 /* Assets.xcassets */,
 				C6852CAB26E6CB7700737A99 /* LaunchScreen.storyboard */,
 				C6852CAE26E6CB7700737A99 /* Info.plist */,
@@ -144,6 +152,9 @@
 			dependencies = (
 			);
 			name = "Yelp Play";
+			packageProductDependencies = (
+				C6852CD726E6CE3A00737A99 /* Alamofire */,
+			);
 			productName = "Yelp Play";
 			productReference = C6852C9D26E6CB7500737A99 /* Yelp Play.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = C6852C9426E6CB7500737A99;
+			packageReferences = (
+				C6852CD626E6CE3A00737A99 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = C6852C9E26E6CB7500737A99 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +247,6 @@
 			files = (
 				C6852CAD26E6CB7700737A99 /* LaunchScreen.storyboard in Resources */,
 				C6852CAA26E6CB7700737A99 /* Assets.xcassets in Resources */,
-				C6852CA826E6CB7500737A99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6852CA526E6CB7500737A99 /* ViewController.swift in Sources */,
+				C6852CD326E6CD2100737A99 /* TableViewCell.swift in Sources */,
+				C6852CA526E6CB7500737A99 /* HomeScreenViewController.swift in Sources */,
 				C6852CA126E6CB7500737A99 /* AppDelegate.swift in Sources */,
-				C6852CA326E6CB7500737A99 /* SceneDelegate.swift in Sources */,
+				C6852CD526E6CD4900737A99 /* YelpAPIKey.swift in Sources */,
+				C6852CD126E6CCCE00737A99 /* DetailViewController.swift in Sources */,
+				C621145C26E84526005305D5 /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +312,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C6852CA626E6CB7500737A99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6852CA726E6CB7500737A99 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C6852CAB26E6CB7700737A99 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -593,6 +601,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6852CD626E6CE3A00737A99 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6852CD726E6CE3A00737A99 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6852CD626E6CE3A00737A99 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6852C9526E6CB7500737A99 /* Project object */;
 }
