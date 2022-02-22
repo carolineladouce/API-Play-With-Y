@@ -1,31 +1,41 @@
-# APIPlayWithY
+# MapKit Yelp Fusion API 
 
-Hello 👋
+In this app, I played with MapKit and the Yelp Fusion Api to gather and display info about nearby businesses. 
 
-In this app, I played with the Yelp Fusion Api to gather and display info about nearby businesses. 
-This app is built using UIKit (no storyboards here!)
+This app is built programmatically using Swift, UIKit, MapKit, Core Location, and the Yelp Fusion API. 
+
+## How to use this app
+
 For this demo, I selected to display places where users can find pizza or vegetables 🍕🥦
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/39711539/133482513-ef026417-7166-4eb6-ae12-10a43dc16817.gif)
 
-Here are a few goals:
-1. Create an app with a homescreen where users can toggle between a map view ("Map") and a UITableView ("List")
-2. Upon loading the app, request user location and display the categorized businesses near the users location
-3. Users can explore the Map or List to view details about the displayed businesses
-4. Include business name, price range, distance from user, and associated emoji (Pizza or Vegetable) in the List cells
-5. While the app is loading data, display a loading view using UIActivityIndicatorView
-6. Apply custom map annotations to the home screen map. In this case, I opted for flower emojis 🌼
-7. Make home screen map annotations clickable 
-8. In the business details view, include: 
-  a button that users can click to call the business 
-  a map view with walking directions from the users location
-  a share button that reveals a "share sheet" using UIActivityViewController
+When opening the app, the app requests user permission to access their location
+Then, users can toggle between a map view or list view to check out nearby businesses
+After selecting a business, uses can see walking directions, call the business, or click the share button to send details to their network
 
-Here are some extra fun things that I've learned about:
-1. Making a price-range display
-2. How to make table view cell heights dynamic
-3. UIActivityViewController, UIActivityIndicatorView, and phone call buttons
+## What I learned
 
-I'm still polishing the UI so stay tuned for updates 😄
+How to make API calls and parse data 
+
+MapKit & Core Location
+
+Request and track user location by using Core Location
+
+Display a map that centers to and frames a location with a specific radius 
+
+Display directions from user location to destination
+
+Customize clickable map annotations
+
+Customize UITableViewCell content
+
+Create a price range display
+
+Add share sheet using UIActivityViewController 
+
+Display loading indicator using UIActivityIndicatorView while app is fetching data
+
+Set up an in-app “call” button
 
 
